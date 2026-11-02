@@ -4,7 +4,7 @@
 
 ## 현재 권장 버전
 
-- Android [v1.0.10 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.10): 업데이트 확인을 공개 정적 버전 정보로 전환했습니다.
+- Android [v1.0.11 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.11): 홈 화면에서 즉시 새로고침하고 원본 화면을 확인할 수 있습니다.
 - iPhone [iOS v1.0.5](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.5): 업데이트 확인을 공개 정적 버전 정보로 전환했습니다. 서명되지 않은 IPA이며 별도 서명이 필요합니다. 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
 - 각 릴리스의 `SHA256SUMS`에서 내려받은 설치 파일의 SHA-256을 확인하세요.
 - Samsung의 설치 보안 알림 발생 원인은 확인되지 않았습니다. 이 버전이 해당 경고를 해결한다고 보장할 수 없습니다. 경고를 우회하지 말고 Galaxy Store에서 보안 정책 업데이트를 확인한 뒤, 계속 나타나면 Samsung 공식 앱 검토를 요청하세요.
@@ -20,14 +20,14 @@ iPhone용 IPA는 서명되지 않았으므로 파일을 눌러 바로 설치할 
 {
   "schema": 1,
   "android": {
-    "version": "1.0.10",
-    "tag": "v1.0.10",
-    "notes": "업데이트 확인을 공개 정적 버전 정보로 전환했습니다.",
-    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.10",
+    "version": "1.0.11",
+    "tag": "v1.0.11",
+    "notes": "홈 화면에서 즉시 새로고침하고 원본 화면을 확인할 수 있습니다.",
+    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.11",
     "asset": {
-      "name": "hanwha-701-order-alert-v1.0.10.apk",
-      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/v1.0.10/hanwha-701-order-alert-v1.0.10.apk",
-      "sha256": "415df7bd7ce141caea01d2c0521b9b761628c5b936d3f9518cd04504e293c634"
+      "name": "hanwha-701-order-alert-v1.0.11.apk",
+      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/v1.0.11/hanwha-701-order-alert-v1.0.11.apk",
+      "sha256": "5a17db0f9a52723083febc4bfc3b00dd99a8f5c7fd93d3e7443fe8d1ac14259c"
     }
   },
   "ios": {
