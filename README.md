@@ -5,7 +5,7 @@
 ## 현재 권장 버전
 
 - Android [v1.0.10 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.10): 업데이트 확인을 공개 정적 버전 정보로 전환했습니다.
-- iPhone [iOS v1.0.4](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.4): 앱 안 의견 보내기와 오프라인 한국어 사용설명서를 추가했습니다.  이 IPA는 서명되지 않았습니다. iPhone에 설치하려면 별도로 서명해야 합니다. iOS 26.2 시뮬레이터 빌드와 테스트를 통과했습니다. 실제 iPhone 설치와 잠금 화면 감시는 물리 기기에서 검증하지 않았습니다. SHA-256은 SHA256SUMS에 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
+- iPhone [iOS v1.0.5](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.5): 업데이트 확인을 공개 정적 버전 정보로 전환했습니다. 서명되지 않은 IPA이며 별도 서명이 필요합니다. 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
 - 각 릴리스의 `SHA256SUMS`에서 내려받은 설치 파일의 SHA-256을 확인하세요.
 - Samsung의 설치 보안 알림 발생 원인은 확인되지 않았습니다. 이 버전이 해당 경고를 해결한다고 보장할 수 없습니다. 경고를 우회하지 말고 Galaxy Store에서 보안 정책 업데이트를 확인한 뒤, 계속 나타나면 Samsung 공식 앱 검토를 요청하세요.
 
@@ -31,14 +31,14 @@ iPhone용 IPA는 서명되지 않았으므로 파일을 눌러 바로 설치할 
     }
   },
   "ios": {
-    "version": "1.0.4",
-    "tag": "ios-v1.0.4",
-    "notes": "앱 안 의견 보내기와 오프라인 한국어 사용설명서를 추가했습니다.\n\n이 IPA는 서명되지 않았습니다. iPhone에 설치하려면 별도로 서명해야 합니다. iOS 26.2 시뮬레이터 빌드와 테스트를 통과했습니다. 실제 iPhone 설치와 잠금 화면 감시는 물리 기기에서 검증하지 않았습니다. SHA-256은 SHA256SUMS에서 확인하세요.",
-    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.4",
+    "version": "1.0.5",
+    "tag": "ios-v1.0.5",
+    "notes": "업데이트 확인을 공개 정적 버전 정보로 전환했습니다. 서명되지 않은 IPA이며 별도 서명이 필요합니다.",
+    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.5",
     "asset": {
       "name": "hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.4/hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "sha256": "931ae6435d1897c727c3c19723136d6c57bb929ffba2cb52ad0e7acc59bde8b6"
+      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.5/hanwha-701-order-alert-ios-UNSIGNED.ipa",
+      "sha256": "35729ba4ba2819f790762af363a26d5199687de1afc7ec517acf06ff07421100"
     }
   }
 }
