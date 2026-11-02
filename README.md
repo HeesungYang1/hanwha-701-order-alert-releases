@@ -5,7 +5,7 @@
 ## 현재 권장 버전
 
 - Android [v1.0.12 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.12): 홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다.
-- iPhone [iOS v1.0.6](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.6): 홈 화면에 즉시 새로고침과 CCTV 원본 화면 표시를 추가했습니다. 감시 중 새로고침은 현재 주문 확인 회차를 앞당깁니다. 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
+- iPhone [iOS v1.0.7](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.7): 홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다. 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
 - 각 릴리스의 `SHA256SUMS`에서 내려받은 설치 파일의 SHA-256을 확인하세요.
 - Samsung의 설치 보안 알림 발생 원인은 확인되지 않았습니다. 이 버전이 해당 경고를 해결한다고 보장할 수 없습니다. 경고를 우회하지 말고 Galaxy Store에서 보안 정책 업데이트를 확인한 뒤, 계속 나타나면 Samsung 공식 앱 검토를 요청하세요.
 
@@ -31,14 +31,14 @@ iPhone용 IPA는 서명되지 않았으므로 파일을 눌러 바로 설치할 
     }
   },
   "ios": {
-    "version": "1.0.6",
-    "tag": "ios-v1.0.6",
-    "notes": "홈 화면에 즉시 새로고침과 CCTV 원본 화면 표시를 추가했습니다. 감시 중 새로고침은 현재 주문 확인 회차를 앞당깁니다.",
-    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.6",
+    "version": "1.0.7",
+    "tag": "ios-v1.0.7",
+    "notes": "홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다.",
+    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.7",
     "asset": {
       "name": "hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.6/hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "sha256": "6e96539159e2d3bd897b7b153b679857058dbfb8048637d68d0d11bae0812167"
+      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.7/hanwha-701-order-alert-ios-UNSIGNED.ipa",
+      "sha256": "ae8169fb4055465e921fed4c1ae9337b59f7d2a782f8f0bef68bea2783006115"
     }
   }
 }
