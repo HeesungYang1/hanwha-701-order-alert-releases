@@ -4,7 +4,7 @@
 
 ## 현재 권장 버전
 
-- Android [v1.0.12 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.12): 홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다.
+- Android [v1.0.13 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.13): 상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다.
 - iPhone [iOS v1.0.7](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.7): 홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다. 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
 - 각 릴리스의 `SHA256SUMS`에서 내려받은 설치 파일의 SHA-256을 확인하세요.
 - Samsung의 설치 보안 알림 발생 원인은 확인되지 않았습니다. 이 버전이 해당 경고를 해결한다고 보장할 수 없습니다. 경고를 우회하지 말고 Galaxy Store에서 보안 정책 업데이트를 확인한 뒤, 계속 나타나면 Samsung 공식 앱 검토를 요청하세요.
@@ -20,14 +20,14 @@ iPhone용 IPA는 서명되지 않았으므로 파일을 눌러 바로 설치할 
 {
   "schema": 1,
   "android": {
-    "version": "1.0.12",
-    "tag": "v1.0.12",
-    "notes": "홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다.",
-    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.12",
+    "version": "1.0.13",
+    "tag": "v1.0.13",
+    "notes": "상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다.",
+    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.13",
     "asset": {
-      "name": "hanwha-701-order-alert-v1.0.12.apk",
-      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/v1.0.12/hanwha-701-order-alert-v1.0.12.apk",
-      "sha256": "278334e53729feca2915f849b88444a43dd385692f3d662778ec53698b1d2959"
+      "name": "hanwha-701-order-alert-v1.0.13.apk",
+      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/v1.0.13/hanwha-701-order-alert-v1.0.13.apk",
+      "sha256": "515f8dfb64c552b6de2bb8a2dfcc35768133b34142e3807f1059fc480d85595e"
     }
   },
   "ios": {
