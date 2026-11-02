@@ -5,7 +5,7 @@
 ## 현재 권장 버전
 
 - Android [v1.0.13 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.13): 상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다.
-- iPhone [iOS v1.0.7](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.7): 홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다. 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
+- iPhone [iOS v1.0.8](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.8): 상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다. IPA: 서명되지 않음(UNSIGNED). 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
 - 각 릴리스의 `SHA256SUMS`에서 내려받은 설치 파일의 SHA-256을 확인하세요.
 - Samsung의 설치 보안 알림 발생 원인은 확인되지 않았습니다. 이 버전이 해당 경고를 해결한다고 보장할 수 없습니다. 경고를 우회하지 말고 Galaxy Store에서 보안 정책 업데이트를 확인한 뒤, 계속 나타나면 Samsung 공식 앱 검토를 요청하세요.
 
@@ -31,14 +31,14 @@ iPhone용 IPA는 서명되지 않았으므로 파일을 눌러 바로 설치할 
     }
   },
   "ios": {
-    "version": "1.0.7",
-    "tag": "ios-v1.0.7",
-    "notes": "홈 화면 번호판 미리보기를 확대해 검은 주변 영역을 줄였습니다.",
-    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.7",
+    "version": "1.0.8",
+    "tag": "ios-v1.0.8",
+    "notes": "상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다. IPA: 서명되지 않음(UNSIGNED).",
+    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.8",
     "asset": {
       "name": "hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.7/hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "sha256": "ae8169fb4055465e921fed4c1ae9337b59f7d2a782f8f0bef68bea2783006115"
+      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.8/hanwha-701-order-alert-ios-UNSIGNED.ipa",
+      "sha256": "e46bf84921f235298c46d43ff52613eba1e8af96dd2225b776ab76423af32ef1"
     }
   }
 }
