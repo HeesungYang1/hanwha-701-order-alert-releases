@@ -5,7 +5,7 @@
 ## 현재 권장 버전
 
 - Android [v1.0.13 APK](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/v1.0.13): 상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다.
-- iPhone [iOS v1.0.8](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.8): 상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다. IPA: 서명되지 않음(UNSIGNED). 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
+- iPhone [iOS v1.0.9](https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.9): - 마지막 확인 번호와 시각을 유지하고 새 화면 판독 상태를 호출번호판에 따로 표시합니다. - 홈에서 주문번호를 먼저 볼 수 있게 배치하고 설정을 화면 확인, 알림, 업데이트, 도움말로 정리했습니다. - iOS 26 이상용 미서명 IPA입니다. 개인 서명이 필요합니다. Xcode 빌드, 시뮬레이터 테스트와 화면, 내장 한 서명되지 않은 IPA이며 설치하려면 별도로 서명해야 합니다.
 - 각 릴리스의 `SHA256SUMS`에서 내려받은 설치 파일의 SHA-256을 확인하세요.
 - Samsung의 설치 보안 알림 발생 원인은 확인되지 않았습니다. 이 버전이 해당 경고를 해결한다고 보장할 수 없습니다. 경고를 우회하지 말고 Galaxy Store에서 보안 정책 업데이트를 확인한 뒤, 계속 나타나면 Samsung 공식 앱 검토를 요청하세요.
 
@@ -31,14 +31,14 @@ iPhone용 IPA는 서명되지 않았으므로 파일을 눌러 바로 설치할 
     }
   },
   "ios": {
-    "version": "1.0.8",
-    "tag": "ios-v1.0.8",
-    "notes": "상단 번호 오인식 방지와 사진·판독 결과 일치를 추가했습니다. 불확실한 호출번호·남은 수·ETA는 숨깁니다. IPA: 서명되지 않음(UNSIGNED).",
-    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.8",
+    "version": "1.0.9",
+    "tag": "ios-v1.0.9",
+    "notes": "- 마지막 확인 번호와 시각을 유지하고 새 화면 판독 상태를 호출번호판에 따로 표시합니다.\n- 홈에서 주문번호를 먼저 볼 수 있게 배치하고 설정을 화면 확인, 알림, 업데이트, 도움말로 정리했습니다.\n- iOS 26 이상용 미서명 IPA입니다. 개인 서명이 필요합니다. Xcode 빌드, 시뮬레이터 테스트와 화면, 내장 한국어 설명서 및 IPA 구조를 확인했습니다. Windows 작업 환경에 실제 iPhone이 없어 개인 서명 후 실기기 설치와 잠금 화면 알림·소리·진동은 미검증입니다.",
+    "page": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/tag/ios-v1.0.9",
     "asset": {
       "name": "hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.8/hanwha-701-order-alert-ios-UNSIGNED.ipa",
-      "sha256": "e46bf84921f235298c46d43ff52613eba1e8af96dd2225b776ab76423af32ef1"
+      "url": "https://github.com/HeesungYang1/hanwha-701-order-alert-releases/releases/download/ios-v1.0.9/hanwha-701-order-alert-ios-UNSIGNED.ipa",
+      "sha256": "734006c5b4cd2ba8db7a2c1998a321ea4e73fa4243f7f846f27d9e7ca21a7454"
     }
   }
 }
